@@ -1,0 +1,10 @@
+class TwentyfourthAssignment
+{  
+public static void main(String args[])
+{  
+int n=100;  
+String str=Integer.toString(n);// inbuilt function of String class.  
+System.out.println(n+100);//200 because + is binary plus operator here
+System.out.println("the converted value is"+" "+str+100);//100100 because + is string concatenation operator    
+   }
+}  
